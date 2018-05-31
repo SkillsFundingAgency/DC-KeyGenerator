@@ -2,6 +2,6 @@
 {
     public interface IKeyGenerator
     {
-        string GenerateKey(long ukPrn, long jobId, TaskKeys task, string separator = @"/");
+        string GenerateKey(long ukPrn, long jobId, TaskKeys task);
     }
 }

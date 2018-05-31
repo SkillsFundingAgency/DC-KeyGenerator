@@ -4,9 +4,11 @@ namespace ESFA.DC.KeyGenerator
 {
     public sealed class KeyGenerator : IKeyGenerator
     {
-        public string GenerateKey(long ukPrn, long jobId, TaskKeys task, string separator = "/")
+        private const string Separator = "_";
+
+        public string GenerateKey(long ukPrn, long jobId, TaskKeys task)
         {
-            return $"{ukPrn}{separator}{jobId}{separator}{task}";
+            return $"{ukPrn}{Separator}{jobId}{Separator}{task}";
         }
     }
 }
