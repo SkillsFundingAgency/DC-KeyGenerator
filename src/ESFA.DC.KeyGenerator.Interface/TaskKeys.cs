@@ -5,6 +5,7 @@
         ValidationValidLearners = 1,
         ValidationInvalidLearners,
         ValidationErrors,
-        FundingAlbOutput = 100
+        FundingAlbOutput = 100,
+        FundingFm35Output = 101,
     }
 }
