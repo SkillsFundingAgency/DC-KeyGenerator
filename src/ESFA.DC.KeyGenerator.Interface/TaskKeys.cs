@@ -7,5 +7,6 @@
         ValidationErrors,
         FundingAlbOutput = 100,
         FundingFm35Output = 101,
+        FundingFm25Output = 102,
     }
 }
