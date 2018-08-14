@@ -5,6 +5,7 @@
         ValidationValidLearners = 1,
         ValidationInvalidLearners,
         ValidationErrors,
+        ValidationErrorsLookup,
         FundingAlbOutput = 100,
         FundingFm35Output = 101,
         FundingFm25Output = 102,
