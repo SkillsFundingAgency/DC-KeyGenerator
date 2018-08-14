@@ -6,7 +6,7 @@ namespace ESFA.DC.KeyGenerator
     {
         private const string Separator = "_";
 
-        public string GenerateKey(long ukPrn, long jobId, TaskKeys task)
+        public string GenerateKey(long ukPrn, long jobId, string task)
         {
             return $"{ukPrn}{Separator}{jobId}{Separator}{task}";
         }

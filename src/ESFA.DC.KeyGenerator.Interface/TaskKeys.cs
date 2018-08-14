@@ -1,13 +1,19 @@
 ﻿namespace ESFA.DC.KeyGenerator.Interface
 {
-    public enum TaskKeys
+    public static class TaskKeys
     {
-        ValidationValidLearners = 1,
-        ValidationInvalidLearners,
-        ValidationErrors,
-        ValidationErrorsLookup,
-        FundingAlbOutput = 100,
-        FundingFm35Output = 101,
-        FundingFm25Output = 102,
+        public const string ValidationValidLearners = "ValidationValidLearners";
+
+        public const string ValidationInvalidLearners = "ValidationInvalidLearners";
+
+        public const string ValidationErrors = "ValidationErrors";
+
+        public const string ValidationErrorsLookup = "ValidationErrorsLookup";
+
+        public const string FundingAlbOutput = "FundingAlbOutput";
+
+        public const string FundingFm35Output = "FundingFm35Output";
+
+        public const string FundingFm25Output = "FundingFm25Output";
     }
 }
